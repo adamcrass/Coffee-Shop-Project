@@ -1,0 +1,52 @@
+/* Reset default styles for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Remove default styles from anchor tags */
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Remove default list styling */
+ul,
+ol {
+  list-style: none;
+}
+
+/* Remove default form element styles */
+input,
+button,
+textarea,
+select {
+  border: none;
+  outline: none;
+  background: none;
+  font-family: inherit;
+  font-size: inherit;
+  color: inherit;
+}
+
+/* Reset for table elements */
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  padding: 0;
+  text-align: left;
+}
+
+html,
+body {
+  height: 100%; /* Ensures full-height layout without scrollbars */
+}
+
+body::-webkit-scrollbar {
+  display: none;
+}

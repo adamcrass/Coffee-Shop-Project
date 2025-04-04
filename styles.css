@@ -1,0 +1,136 @@
+/* Allow vertical scrolling on body */
+body {
+  background-color: rgb(231, 165, 85);
+  margin: 0;
+}
+
+#header {
+  background-color: rgb(79, 53, 44);
+  height: 100%;
+  width: 100%;
+  position: relative;
+  background-image: url("Background Picture.jpg");
+  background-size: cover; /* Optional: make it cover the whole area */
+  background-repeat: no-repeat; /* Optional: prevent tiling */
+  background-position: center; /* Optional: center the image */
+  border-bottom: 10px solid rgb(79, 53, 44);
+}
+
+#main {
+  background-color: rgb(231, 165, 85);
+  height: 87%;
+  width: 100%;
+  position: absolute;
+}
+
+#navbar {
+  background-color: rgb(51, 41, 34);
+  width: 100%;
+  height: 8%;
+  position: absolute;
+  text-align: center;
+  align-items: center;
+  color: rgb(170, 130, 102);
+  display: flex;
+}
+
+#logo {
+  width: 100px;
+  height: auto;
+  font-size: 30px;
+  position: static; /* Remove absolute positioning */
+}
+
+#nav-contents {
+  font-size: 25px;
+  display: flex;
+  gap: 20px;
+  position: static; /* Remove absolute positioning */
+  margin-left: 84%;
+}
+
+#drinks {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 15%;
+  display: flex;
+  margin: 0px;
+  flex-direction: column;
+  align-items: center;
+}
+
+#menu-title {
+  font-size: 50px;
+  color: rgb(51, 41, 34);
+  position: relative;
+  margin-top: 40px; /* Adjust as needed */
+  text-align: center;
+}
+
+#drink-items {
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  align-items: center; /* horizontally center the spans */
+  text-align: center;
+  gap: 10px; /* spacing between items */
+}
+
+.item-title {
+  padding: 20px;
+}
+
+.item-types {
+  position: relative;
+  font-size: 40px;
+}
+
+#food {
+  width: 50%;
+  height: 100%;
+  position: absolute;
+  top: 15%;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: left;
+  padding-left: 40px;
+  gap: 10px;
+}
+
+.drink-title {
+  padding: 20px;
+}
+
+#food-items {
+  display: flex;
+  font-size: 25px;
+  flex-direction: column;
+  align-items: center; /* horizontally center the spans */
+  text-align: center;
+  gap: 10px; /* spacing between items */
+}
+
+.food-title {
+  padding-top: 40px;
+  padding-bottom: 20px;
+}
+
+#footer {
+  width: 100%;
+  height: 10%;
+  background-color: rgb(51, 41, 34);
+  position: absolute;
+  display: flex;
+  bottom: -20%;
+  align-items: center;
+  justify-content: left;
+  flex-direction: row;
+  font-size: 20px;
+  gap: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  color: rgb(170, 130, 102);
+}
